@@ -1,4 +1,4 @@
-namespace KxReactTemplate.Server
+namespace KxReactTemplate.Server.Models
 {
     public class WeatherForecast
     {

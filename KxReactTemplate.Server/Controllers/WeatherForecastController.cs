@@ -1,7 +1,10 @@
+using KxReactTemplate.Server.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace KxReactTemplate.Server.Controllers;
 
+[Authorize]
 [ApiController]
 [Route("[controller]")]
 public class WeatherForecastController : ControllerBase
