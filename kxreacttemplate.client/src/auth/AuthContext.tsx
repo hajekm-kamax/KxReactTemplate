@@ -1,3 +1,5 @@
+// src/auth/AuthContext.tsx
+
 import {
     createContext,
     useContext,

@@ -1,3 +1,5 @@
+// src/auth/types.ts
+
 export interface User {
     username: string;
     displayName: string;
